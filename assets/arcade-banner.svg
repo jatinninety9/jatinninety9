@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title description">
+  <title id="title">C++ developer, build, debug, level up</title>
+  <desc id="description">A dark technology arcade with a cyan pixel knight, a lime robot companion, and a small purple slime. Player handle: jatinninety9.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#07121f"/>
+      <stop offset="1" stop-color="#11102b"/>
+    </linearGradient>
+    <linearGradient id="platform" x2="1">
+      <stop stop-color="#41e5d5"/>
+      <stop offset="1" stop-color="#b5f462"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#68a6b8" stroke-opacity=".07"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="440" rx="20" fill="url(#background)"/>
+  <rect width="1200" height="440" rx="20" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="438" rx="19" fill="none" stroke="#28404f"/>
+
+  <g fill="none" stroke="#285465" stroke-width="2">
+    <path d="M0 300H60L88 272H132"/>
+    <path d="M1200 85H1132L1108 109H1074"/>
+    <path d="M700 0V43L724 67V93"/>
+    <path d="M1200 375H1112L1080 407H1040"/>
+  </g>
+  <g fill="#41e5d5">
+    <circle cx="132" cy="272" r="4"/>
+    <circle cx="1074" cy="109" r="4"/>
+    <circle cx="724" cy="93" r="4"/>
+  </g>
+
+  <g font-family="Consolas, 'Courier New', monospace">
+    <rect x="48" y="40" width="288" height="31" rx="5" fill="#102b33" stroke="#2a6267"/>
+    <circle cx="65" cy="55" r="4" fill="#b5f462"/>
+    <text x="80" y="60" fill="#c5e5e7" font-size="13" letter-spacing="1.3">PLAYER / @jatinninety9</text>
+    <text x="48" y="139" fill="#eaf6ff" font-size="53" font-weight="700" letter-spacing="-2">C++ DEVELOPER</text>
+    <text x="50" y="181" fill="#41e5d5" font-size="20" letter-spacing="3">BUILD. DEBUG. LEVEL UP.</text>
+    <text x="50" y="229" fill="#a2b5ca" font-size="17">Algorithms, useful software,</text>
+    <text x="50" y="255" fill="#a2b5ca" font-size="17">and one more problem to solve.</text>
+
+    <g font-size="12" letter-spacing="1">
+      <rect x="48" y="296" width="132" height="33" rx="5" fill="#112831" stroke="#24505b"/>
+      <text x="64" y="317" fill="#67e9dc">ALGORITHMS</text>
+      <rect x="191" y="296" width="144" height="33" rx="5" fill="#1c2530" stroke="#45513d"/>
+      <text x="205" y="317" fill="#c0f581">OPEN SOURCE</text>
+      <rect x="346" y="296" width="130" height="33" rx="5" fill="#251e37" stroke="#4b395f"/>
+      <text x="361" y="317" fill="#c3a5fa">ML / DATA</text>
+    </g>
+    <text x="49" y="396" fill="#6b849c" font-size="12" letter-spacing="1.8">READ &gt; BUILD &gt; TEST &gt; IMPROVE &gt; REPEAT</text>
+  </g>
+
+  <path d="M665 75H1104V344H665Z" fill="#0a1724" fill-opacity=".65" stroke="#25394c" stroke-dasharray="5 8"/>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="11" letter-spacing="1.5">
+    <text x="686" y="99" fill="#65869b">PARTY / READY TO BUILD</text>
+    <text x="705" y="326" fill="#6d95ab">COMPILER KNIGHT</text>
+    <text x="966" y="326" fill="#97ad6c">DEBUG BOT</text>
+  </g>
+
+  <!-- Original pixel knight. -->
+  <g transform="translate(735 133) scale(7)" shape-rendering="crispEdges">
+    <path d="M6 0H14V2H16V10H14V12H5V10H3V3H6Z" fill="#16384c"/>
+    <path d="M6 1H14V3H15V8H13V10H5V8H4V4H6Z" fill="#5ddedc"/>
+    <path d="M7 3H14V5H15V7H6V5H7Z" fill="#092336"/>
+    <path d="M11 4H14V5H11Z" fill="#f4fffe"/>
+    <path d="M5 9H13V11H5Z" fill="#30aebd"/>
+    <path d="M6 -2H10V0H6Z" fill="#b5f462"/>
+    <path d="M4 12H14V14H16V20H13V22H5V20H2V14H4Z" fill="#2a6680"/>
+    <path d="M5 12H13V15H14V19H4V15H5Z" fill="#5ddedc"/>
+    <path d="M7 14H11V18H7Z" fill="#e7faff"/>
+    <path d="M8 15H10V17H8Z" fill="#207a98"/>
+    <path d="M4 20H8V25H2V23H4ZM10 20H14V23H16V25H10Z" fill="#337c98"/>
+    <path d="M1 13H4V20H1V18H-1V15H1Z" fill="#70f0df"/>
+    <path d="M0 15H4V22H2V23H0V21H-2V16H0Z" fill="#1c4960"/>
+    <path d="M0 16H3V20H1V21H0Z" fill="#b5f462"/>
+    <path d="M15 14H18V18H15Z" fill="#83e9df"/>
+    <path d="M18 0H20V2H21V15H18Z" fill="#e6f7ff"/>
+    <path d="M20 3H21V15H20Z" fill="#6babc2"/>
+    <path d="M16 15H23V17H16Z" fill="#b5f462"/>
+    <path d="M19 17H21V21H19Z" fill="#806eaa"/>
+  </g>
+
+  <!-- Original robot companion. -->
+  <g transform="translate(974 205) scale(6)" shape-rendering="crispEdges">
+    <path d="M7 -4H9V0H7Z" fill="#73a6a3"/>
+    <path d="M6 -5H10V-3H6Z" fill="#b5f462"/>
+    <path d="M2 0H14V2H16V11H14V13H2V11H0V2H2Z" fill="#8ec552"/>
+    <path d="M3 1H13V3H15V9H13V11H3V9H1V3H3Z" fill="#c4f681"/>
+    <path d="M3 4H13V9H3Z" fill="#152b36"/>
+    <path d="M4 5H6V7H4ZM10 5H12V7H10Z" fill="#6effe1"/>
+    <path d="M6 9H10V10H6Z" fill="#4f7c39"/>
+    <path d="M4 13H12V16H4Z" fill="#679e45"/>
+    <path d="M2 14H5V16H2ZM11 14H14V16H11Z" fill="#a4da65"/>
+  </g>
+
+  <!-- Original slime companion. -->
+  <g transform="translate(659 270) scale(4)" shape-rendering="crispEdges">
+    <path d="M3 0H9V2H12V4H14V10H0V4H2V2H3Z" fill="#a689e8"/>
+    <path d="M3 4H5V6H3ZM9 4H11V6H9Z" fill="#17223d"/>
+    <path d="M5 7H9V8H5Z" fill="#e2d7ff"/>
+  </g>
+  <g fill="#d7b972" shape-rendering="crispEdges">
+    <path d="M1000 127H1005V122H1010V127H1015V132H1010V137H1005V132H1000Z"/>
+    <path d="M1080 175H1084V171H1088V175H1092V179H1088V183H1084V179H1080Z"/>
+  </g>
+  <rect x="655" y="302" width="444" height="4" fill="url(#platform)"/>
+  <rect x="655" y="306" width="444" height="6" fill="#1b3b48"/>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="13">
+    <text x="694" y="389" fill="#718ba2">while (curious) {</text>
+    <text x="864" y="389" fill="#b5f462">keep_building();</text>
+    <text x="1045" y="389" fill="#718ba2">}</text>
+  </g>
+</svg>
