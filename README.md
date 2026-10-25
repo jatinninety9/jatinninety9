@@ -14,7 +14,7 @@
   <a href="#-open-source-party">Open source</a>
 </p>
 
-## ⚔️ Tech loadout
+## ⚔ Tech loadout
 
 **Main weapon: C++**
 
