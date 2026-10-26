@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="400" viewBox="0 0 800 400" role="img" aria-label="BankSystemProject.py">
+<rect x="1" y="1" width="798" height="398" rx="6" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+<path d="M1 52H799" stroke="#30363d"/>
+<text x="24" y="33" fill="#a7b3c2" font-family="ui-monospace, Consolas, monospace" font-size="18">BankSystemProject.py</text>
+<text x="26" y="96" font-family="ui-monospace, Consolas, monospace" font-size="21" fill="#c9d1d9">def&#160;deposit(self,&#160;amount:&#160;float)&#160;-&gt;&#160;bool:</text>
+<text x="26" y="128" font-family="ui-monospace, Consolas, monospace" font-size="21" fill="#c9d1d9">&#160;&#160;&#160;&#160;if&#160;amount&#160;&lt;=&#160;0:</text>
+<text x="26" y="160" font-family="ui-monospace, Consolas, monospace" font-size="21" fill="#c9d1d9">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return&#160;False</text>
+<text x="26" y="192" font-family="ui-monospace, Consolas, monospace" font-size="21" fill="#c9d1d9">&#160;&#160;&#160;&#160;self._balance&#160;+=&#160;amount</text>
+<text x="26" y="224" font-family="ui-monospace, Consolas, monospace" font-size="21" fill="#c9d1d9">&#160;&#160;&#160;&#160;return&#160;True</text>
+<text x="26" y="256" font-family="ui-monospace, Consolas, monospace" font-size="21" fill="#c9d1d9"></text>
+<text x="26" y="288" font-family="ui-monospace, Consolas, monospace" font-size="21" fill="#8b949e">#&#160;SavingsAccount</text><path d="M20 351H780" stroke="#30363d"/><text x="24" y="382" fill="#a7b3c2" font-family="system-ui, sans-serif" font-size="17">Source excerpt · Python / Tkinter / JSON</text></svg>
